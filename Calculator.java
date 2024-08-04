@@ -13,13 +13,13 @@ public class Calculator {
 
         int result = 0;
 
-        if (operation.equals("add")) {
+        if (operation.equals("+")) {
             result = add(num1, num2);
-        } else if (operation.equals("subtract")) {
+        } else if (operation.equals("-")) {
             result = subtract(num1, num2);
-        } else if (operation.equals("multiply")) {
+        } else if (operation.equals("*")) {
             result = multiply(num1, num2);
-        } else if (operation.equals("divide")){
+        } else if (operation.equals("/")){
             result = divide(num1, num2);
         } else {
             System.out.println("Something went wrong");;
